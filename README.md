@@ -46,4 +46,4 @@ You may look at a list of reasons that the CleverBot API Request would fail alon
 If you have any functionality requests go ahead and open an issue containing your suggestions.
 
 ##Credits
-Package written by Michael Flaherty, Maven help by Nightmares & 808s
+Package written by Michael Flaherty & Lots of maven help from Nightmares & 808s
