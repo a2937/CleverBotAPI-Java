@@ -40,8 +40,10 @@ catch (IOException e)
     response = e.getMessage();
 }
 ```
-You may look at a list of reasons that the CleverBot API Request would fail along with more information here!
+You may look at a list of reasons that the CleverBot API Request would fail along with more information [here](http://cleverbot.com/api)!
 
-##Otherwise
+##Issues
+If you have any functionality requests go ahead and open an issue containing your suggestions.
 
-The CleverBot API itself is very simple and easy to use. If you have any functionality requests go ahead and open an issue containing your suggestions.
+##Credits
+Package written by Michael Flaherty, Maven help by Nightmares & 808s
