@@ -16,7 +16,7 @@ First step is to recieve an API key from cleverbot.com/api.
 
 Then just use the following as a template
 ```java
-import cleverbotapi.CleverBotQuery;
+import com.michaelwflaherty.cleverbotapi.CleverBotQuery;
 
 ...
 
