@@ -2,6 +2,7 @@
 
 This is a simple CleverBot API Wrapper. Usage is simple, and an example is below.
 
+##Installaiton
 ####Maven
 ```html
 <dependency>
