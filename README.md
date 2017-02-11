@@ -13,7 +13,7 @@ This is a simple CleverBot API Wrapper. Usage is simple, and an example is below
 
 ```
 ###Jar
-If you're not using Maven, you can just download the jar [here](https://oss.sonatype.org/service/local/repositories/releases/content/com/michaelwflaherty/cleverbotapi/1.0/cleverbotapi-1.0.jar)
+If you're not using Maven, you can just download the jar [here](https://oss.sonatype.org/service/local/repositories/releases/content/com/michaelwflaherty/cleverbotapi/1.0-RELEASE/cleverbotapi-1.0-RELEASE.jar)
 
 
 ##Usage
