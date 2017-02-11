@@ -1,7 +1,15 @@
 #CleverBot API Wrapper for Java!
 
-This is just a simple CleverBot API Wrapper. Usage is simple, and an example is below.
+This is a simple CleverBot API Wrapper. Usage is simple, and an example is below.
 
+##Maven
+```html
+<dependency>
+    <groupId>com.michaelwflaherty</groupId>
+    <artifactId>cleverbotapi</artifactId>
+    <version>1.0</version>
+</dependency>
+```
 ##Usage
 
 First step is to recieve an API key from cleverbot.com/api.
