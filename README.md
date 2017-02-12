@@ -10,10 +10,9 @@ This is a simple CleverBot API Wrapper. Usage is simple, and an example is below
     <artifactId>cleverbotapi</artifactId>
     <version>1.0.1</version>
 </dependency>
-
 ```
 ###Jar
-If you're not using Maven, you can just download the jar [here](https://oss.sonatype.org/content/repositories/commichaelwflaherty-1009/com/michaelwflaherty/cleverbotapi/1.0.1/cleverbotapi-1.0.1.jar)
+If you're not using Maven, you can just download the jar [here](http://repo1.maven.org/maven2/com/michaelwflaherty/cleverbotapi/1.0.1/cleverbotapi-1.0.1.jar)
 
 
 ##Usage
