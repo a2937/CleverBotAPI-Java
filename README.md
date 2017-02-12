@@ -1,6 +1,6 @@
 #CleverBot API Wrapper for Java!
 
-This is a simple CleverBot API Wrapper. Usage is simple, and an example is below.
+This is a simple CleverBot API Wrapper. Usage is simple, and an example is below. The first step to using this wrapper is to register an api key [here](http://www.cleverbot.com/api).
 
 ##Installation
 ###Maven
@@ -15,11 +15,7 @@ This is a simple CleverBot API Wrapper. Usage is simple, and an example is below
 If you're not using Maven, you can just download the jar [here](http://repo1.maven.org/maven2/com/michaelwflaherty/cleverbotapi/1.0.1/cleverbotapi-1.0.1.jar)
 
 
-##Usage
-
-First step is to recieve an API key from cleverbot.com/api.
-
-Then just use the following as a template
+##Sample
 ```java
 import com.michaelwflaherty.cleverbotapi.CleverBotQuery;
 
@@ -39,11 +35,14 @@ catch (IOException e)
     response = e.getMessage();
 }
 ```
-You may look at a list of reasons that the CleverBot API Request would fail along with more information [here](http://cleverbot.com/api)!
+
+More information about the cleverbot API can be found [here](http://cleverbot.com/api). 
 
 ##Issues
-If you have any functionality requests go ahead and open an issue containing your suggestions.
+Please report any issues to the issues section & as always if you have any functionality requests go ahead and open an issue containing your suggestions.
 
 ##Credits
-Package written by Michael Flaherty & Lots of maven help from Cypher https://github.com/scriptkittie
+Package written by Michael Flaherty
+Lots of maven help from [Cypher](https://github.com/scriptkittie)
+API provided by the folks at [Exitor](https://www.existor.com/)
 
