@@ -2,6 +2,19 @@
 
 This is a simple CleverBot API Wrapper. Usage is simple, and an example is below. The first step to using this wrapper is to register an api key [here](http://www.cleverbot.com/api).
 
+##Changelog
+####1.0.2
+- Added support for javadocs.
+- Created [official documentation page](http://www.cleverbotapi.michaelwflaherty.com/).
+- Adjusted integer parsing location in the setRandomNumber method.
+
+####1.0.1
+- Fixed empty maven build error (Issue #1).
+
+####1.0.0
+- Initial release.
+
+
 ##Installation
 ###Maven
 ```html
