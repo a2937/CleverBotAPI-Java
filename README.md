@@ -16,6 +16,7 @@ If you're not using Maven, you can just download the jar [here](http://repo1.mav
 
 
 ##Sample
+View the example below, or review our [official documentation](http://cleverbotapi.michaelwflaherty.com)!
 ```java
 import com.michaelwflaherty.cleverbotapi.CleverBotQuery;
 
