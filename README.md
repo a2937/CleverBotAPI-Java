@@ -3,6 +3,8 @@
 This is a simple CleverBot API Wrapper. Usage is simple, and an example is below. The first step to using this wrapper is to register an api key [here](http://www.cleverbot.com/api).
 
 ##Changelog
+<details> 
+  <summary>Open spoiler to view changelog </summary>
 ####1.0.2
 - Added support for javadocs.
 - Created [official documentation page](http://www.cleverbotapi.michaelwflaherty.com/).
@@ -13,6 +15,7 @@ This is a simple CleverBot API Wrapper. Usage is simple, and an example is below
 
 ####1.0.0
 - Initial release.
+</details>
 
 
 ##Installation
