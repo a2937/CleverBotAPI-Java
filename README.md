@@ -1,6 +1,6 @@
 #CleverBot API Wrapper for Java!
 
-This is a simple CleverBot API Wrapper. Usage is simple, and an example is below. The first step to using this wrapper is to register an api key [here](http://www.cleverbot.com/api).
+This is a simple CleverBot API Wrapper. Usage is simple, and an example along with a link to official documentation is below. The first step to using this wrapper is to register an api key [here](http://www.cleverbot.com/api).
 
 ##Changelog
 <details> 
