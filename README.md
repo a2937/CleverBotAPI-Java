@@ -43,6 +43,8 @@ Please report any issues to the issues section & as always if you have any funct
 
 ##Credits
 Package written by Michael Flaherty
+
 Lots of maven help from [Cypher](https://github.com/scriptkittie)
+
 API provided by the folks at [Exitor](https://www.existor.com/)
 
