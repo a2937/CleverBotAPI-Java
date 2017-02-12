@@ -42,7 +42,7 @@ More information about the cleverbot API can be found [here](http://cleverbot.co
 Please report any issues to the issues section & as always if you have any functionality requests go ahead and open an issue containing your suggestions.
 
 ##Credits
-Package written by Michael Flaherty
+Package written by [Michael Flaherty](http://michaelwflaherty.com/)
 
 Lots of maven help from [Cypher](https://github.com/scriptkittie)
 
