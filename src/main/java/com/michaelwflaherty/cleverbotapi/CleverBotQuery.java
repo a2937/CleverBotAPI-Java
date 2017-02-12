@@ -116,9 +116,9 @@ public class CleverBotQuery
 	*
 	* @param number number to set
 	*/
-    private void setRandomNumber(String number)
+    private void setRandomNumber(int number)
     {
-        this.random = Integer.parseInt(number);
+        this.random = number;
     }
 
 	/**
@@ -170,7 +170,7 @@ public class CleverBotQuery
         /* Get params */
         this.setConversationID(jsonObject.get("cs").getAsString()); // update conversation ID
         this.setResponse(jsonObject.get("output").getAsString()); // get output
-        this.setRandomNumber(jsonObject.get("random_number").getAsString()); // get output
+        this.setRandomNumber(Integer.parseInt(jsonObject.get("random_number").getAsString())); // get output
         in.close(); // close!
     }
 

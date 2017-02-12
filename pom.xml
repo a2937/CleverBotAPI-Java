@@ -4,7 +4,7 @@
 
     <groupId>com.michaelwflaherty</groupId>
     <artifactId>cleverbotapi</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <dependencies>
         <dependency>
             <groupId>com.google.code.gson</groupId>
@@ -43,7 +43,7 @@
     <scm>
         <url>https://github.com/Headline22/CleverBotAPI-Java</url>
         <connection>scm:git:git://github.com/Headline22/CleverBotAPI-Java.git</connection>
-      <tag>cleverbotapi-1.0.1</tag>
+      <tag>cleverbotapi-1.0.2</tag>
   </scm>
 
     <distributionManagement>
