@@ -178,6 +178,7 @@ public class CleverBotQuery
 	* CleverBotQuery constructor
 	* <p>
 	* Conversation identifer is set empty, thus calling sendRequest immediately after 
+	* instantiation will create a new conversation 
 	* </p>
 	*
 	* @param key API key (cleverbot.com/api) 
