@@ -35,7 +35,7 @@ public class CleverBotQuery
     /* Constants */
 	
 	/**
-	* URL String used for CleverBot connection
+	* URL String used for CleverBot connection. <b>Used internally</b>
 	*/
     public static final String URL_STRING = "http://www.cleverbot.com/getreply?key=";
 
@@ -59,7 +59,7 @@ public class CleverBotQuery
     }
 
 	/**
-	* Sets the input phrase.
+	* Sets the input phrase to be send in the CleverBot query.
 	*
 	* @param phrase input phrase to be sent to CleverBot
 	*/
@@ -101,6 +101,9 @@ public class CleverBotQuery
 	/**
 	* Sets the unique conversation identifier
 	*
+	* <p>
+	* Set to empty ("") in order to start a new conversation with the CleverBot.
+	* </p>
 	* @param conversationID unique conversation identifier
 	*/
     public void setConversationID(String conversationID)
@@ -121,6 +124,9 @@ public class CleverBotQuery
 	/**
 	* Gets the random number
 	*
+	* <p>
+	* CleverBot API queries provide a random number greater than zero and less than one thousand.
+	* </p>
 	* @return random number as an integer
 	*/
     public int getRandomNumber()
@@ -129,8 +135,11 @@ public class CleverBotQuery
     }
 
 	/**
-	* Gets conversation identifier
-	*
+	* Gets conversation identifier.
+	* <p>
+	* This is a unique string used to identify conversation context to the CleverBot API servers.
+	* This string is updated after every <code>sendRequest()</code> call.
+	* </p>
 	* @return String object containing the conversation identifier
 	*/
     public String getConversationID()
@@ -167,6 +176,9 @@ public class CleverBotQuery
 
 	/**
 	* CleverBotQuery constructor
+	* <p>
+	* Conversation identifer is set empty, thus calling sendRequest immediately after 
+	* </p>
 	*
 	* @param key API key (cleverbot.com/api) 
 	* @param phrase input phrase
