@@ -3,6 +3,7 @@
 This is a simple CleverBot API Wrapper. Usage is simple, and an example along with a link to official documentation is below. The first step to using this wrapper is to register an api key [here](http://www.cleverbot.com/api).
 
 ##Changelog
+
 <details> 
   <summary>Open spoiler to view changelog </summary>
 ###1.0.2
