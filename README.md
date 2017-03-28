@@ -6,9 +6,10 @@ This is a simple CleverBot API Wrapper. Usage is simple, and an example along wi
 
 <details> 
   <summary>Open spoiler to view changelog </summary>
+  
 ### 1.0.2
 - Added support for javadocs.
-- Created [official documentation page](http://www.cleverbotapi.michaelwflaherty.com/).
+- Created [official documentation page](http://www.cleverbotapi.michaelwflaherty.com/)
 - Adjusted integer parsing location in the setRandomNumber method.
 
 ### 1.0.1
