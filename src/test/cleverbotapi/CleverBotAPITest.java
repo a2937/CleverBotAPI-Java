@@ -25,11 +25,11 @@ public class CleverBotAPITest
     public static void main(String[] args)
     {
         Scanner keyboard;
-        CleverBotQuery botQuery;
+        CleverBotQuery botQuery = new CleverBotQuery("APIKEY", "");
         String input;
         boolean done;
 
-        keyboard = keyboard = new Scanner(System.in);
+        keyboard = new Scanner(System.in);
 
         do
         {
@@ -39,7 +39,7 @@ public class CleverBotAPITest
 
             if (!done)
             {
-                botQuery = new CleverBotQuery("APIKEY", input);
+                botQuery.setPhrase(input);
                 try
                 {
                     botQuery.sendRequest();
@@ -47,7 +47,7 @@ public class CleverBotAPITest
                 }
                 catch (IOException e)
                 {
-                    System.out.println(e.getMessage());
+                    System.out.println(e.getLocalizedMessage());
                 }
             }
         } while(!done);
