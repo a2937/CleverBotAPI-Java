@@ -46,6 +46,25 @@ public class CleverBotQuery
     private String response;
     private int random;
 
+    /* Constructor */
+
+	/**
+	 * CleverBotQuery constructor
+	 * <p>
+	 * Conversation identifer is set empty, thus calling sendRequest immediately after
+	 * instantiation will create a new conversation
+	 * </p>
+	 *
+	 * @param key API key (cleverbot.com/api)
+	 * @param phrase input phrase
+	 */
+	public CleverBotQuery(String key, String phrase)
+	{
+		this.key = key;
+		this.conversationID = "";
+		this.phrase = phrase;
+	}
+
     /* Getters & Setters */
 	
 	/**
@@ -155,7 +174,7 @@ public class CleverBotQuery
     public void sendRequest() throws IOException
     {
         /* Create & Format URL */
-        URL url = new URL(CleverBotQuery.formatRequest(CleverBotQuery.URL_STRING, this.getAPIKey(), this.getPhrase(), this.getConversationID()));
+        URL url = new URL(CleverBotQuery.formatRequest(CleverBotQuery.URL_STRING, this.key, this.phrase, this.conversationID));
 
         /* Open Connection */
         URLConnection urlConnection = url.openConnection();
@@ -174,23 +193,6 @@ public class CleverBotQuery
         in.close(); // close!
     }
 
-	/**
-	* CleverBotQuery constructor
-	* <p>
-	* Conversation identifer is set empty, thus calling sendRequest immediately after 
-	* instantiation will create a new conversation 
-	* </p>
-	*
-	* @param key API key (cleverbot.com/api) 
-	* @param phrase input phrase
-	*/
-    public CleverBotQuery(String key, String phrase)
-    {
-        this.key = key;
-        this.setConversationID("");
-        this.setPhrase(phrase);
-    }
-
     /* Helper Methods */
 	/**
 	* URL request formater
@@ -203,14 +205,7 @@ public class CleverBotQuery
 	*/
     private static String formatRequest(String url, String key, String phrase, String conversationID)
     {
-        String formattedPhrase = phrase.replace(' ', '+');
-        if (conversationID.equals(""))
-        {
-            return url + key + "&input=" + formattedPhrase + "&wrapper=Headline22JavaAPI";
-        }
-        else
-        {
-            return url + key  + "&input=" + formattedPhrase + "&wrapper=Headline22JavaAPI" + "&cs=" + conversationID;
-        }
+        String formattedPhrase = phrase.replaceAll("\\s+", "+");
+        return String.format("%s%s&input=%s&wrapper=Headline22JavaAPI%s", url, key, formattedPhrase, ((conversationID.equals("")) ? "" : ("&cs=" + conversationID)));
     }
 }

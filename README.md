@@ -22,12 +22,16 @@ This is a simple CleverBot API Wrapper. Usage is simple, and an example along wi
 
 ## Installation
 ### Maven
-```html
+```xml
 <dependency>
     <groupId>com.michaelwflaherty</groupId>
     <artifactId>cleverbotapi</artifactId>
     <version>1.0.2</version>
 </dependency>
+```
+### Gradle
+```gradle
+    compile 'com.michaelwflaherty:cleverbotapi:1.0.2'
 ```
 ### Jar
 If you're not using Maven, you can just download the jar [here](http://repo1.maven.org/maven2/com/michaelwflaherty/cleverbotapi/1.0.2/cleverbotapi-1.0.2.jar)
@@ -38,20 +42,20 @@ View the example below, or review our [official documentation](http://cleverbota
 ```java
 import com.michaelwflaherty.cleverbotapi.CleverBotQuery;
 
-...
+// Your previous code
 
-CleverBotQuery bot = new CleverBotQuery("YOURAPIKEY", someInputHere);
-
-String response;
-
-try
-{
-    bot.sendRequest();
-    response = bot.getResponse();
-}
-catch (IOException e)
-{
-    response = e.getMessage();
+    CleverBotQuery bot = new CleverBotQuery("YOURAPIKEY", someInputHere);
+    
+    String response;
+    
+    try
+    {
+        bot.sendRequest();
+        response = bot.getResponse();
+    }
+    catch (IOException e)
+    {
+        response = e.getMessage();
 }
 ```
 
