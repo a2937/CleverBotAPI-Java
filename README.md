@@ -62,7 +62,7 @@ import com.michaelwflaherty.cleverbotapi.CleverBotQuery;
 More information about the cleverbot API can be found [here](http://cleverbot.com/api). 
 
 ## Issues
-Please report any issues to the issues section & as always if you have any functionality requests go ahead and open an issue containing your suggestions.
+If you discover any bugs or have a feature request, please create an issue here on github.
 
 ## Credits
 Package written by [Michael Flaherty](http://michaelwflaherty.com/)
