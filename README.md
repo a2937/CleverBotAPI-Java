@@ -37,7 +37,7 @@ This is a simple CleverBot API Wrapper. Usage is simple, and an example along wi
     compile 'com.michaelwflaherty:cleverbotapi:1.0.3'
 ```
 ### Jar
-If you're not using Maven, you can just download the jar [here](http://repo1.maven.org/maven2/com/michaelwflaherty/cleverbotapi/1.0.2/cleverbotapi-1.0.2.jar)
+If you're not using Maven, you can just download the jar [here](http://repo1.maven.org/maven2/com/michaelwflaherty/cleverbotapi/1.0.3/cleverbotapi-1.0.3.jar)
 
 
 ## Sample
