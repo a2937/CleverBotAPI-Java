@@ -7,6 +7,9 @@ This is a simple CleverBot API Wrapper. Usage is simple, and an example along wi
 <details> 
   <summary>Open spoiler to view changelog </summary>
   
+### 1.0.3
+- Switch requests from http to https
+
 ### 1.0.2
 - Added support for javadocs.
 - Created [official documentation page](http://cleverbotapi.michaelwflaherty.com/)
@@ -26,12 +29,12 @@ This is a simple CleverBot API Wrapper. Usage is simple, and an example along wi
 <dependency>
     <groupId>com.michaelwflaherty</groupId>
     <artifactId>cleverbotapi</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
 </dependency>
 ```
 ### Gradle
 ```gradle
-    compile 'com.michaelwflaherty:cleverbotapi:1.0.2'
+    compile 'com.michaelwflaherty:cleverbotapi:1.0.3'
 ```
 ### Jar
 If you're not using Maven, you can just download the jar [here](http://repo1.maven.org/maven2/com/michaelwflaherty/cleverbotapi/1.0.2/cleverbotapi-1.0.2.jar)

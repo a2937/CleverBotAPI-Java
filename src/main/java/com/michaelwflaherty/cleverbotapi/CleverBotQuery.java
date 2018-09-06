@@ -37,7 +37,7 @@ public class CleverBotQuery
 	/**
 	* URL String used for CleverBot connection. <b>Used internally</b>
 	*/
-    public static final String URL_STRING = "http://www.cleverbot.com/getreply?key=";
+    public static final String URL_STRING = "https://www.cleverbot.com/getreply?key=";
 
     /* Instance Variables */
     private String key;
