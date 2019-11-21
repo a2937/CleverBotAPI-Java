@@ -33,6 +33,7 @@ public class CleverBotAPITest
 
         do
         {
+            System.out.println("Type done to quit. ");
             System.out.print("Enter your message: ");
             input = keyboard.nextLine();
             done = input.equals("done");
